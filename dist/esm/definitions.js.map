@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface CapacitorSmsRetrieverPlugin {\n  getAppHash(): Promise<{ hash: string }>;\n  startListening(): Promise<void>;\n  stopListening(): Promise<void>;\n}\n"]}
